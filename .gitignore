@@ -1,0 +1,14 @@
+/data/output/*
+/data/input/*
+!/data/input/*.md
+target
+.idea
+smv.iml
+/bin/
+/.settings/
+/.classpath
+/.project
+/.cache
+**/.c9*
+derby.log
+metastore_db/

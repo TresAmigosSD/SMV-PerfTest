@@ -1,0 +1,10 @@
+# application name
+smv.appName = SMV Performance Test App
+
+# stage definitions
+smv.stages = etl, perftest
+smv.stages.etl.packages = org.tresamigos.smvperftest.etl
+smv.stages.perftest.packages = org.tresamigos.smvperftest.perftest
+
+# spark sql properties
+spark.sql.shuffle.partitions = 64
